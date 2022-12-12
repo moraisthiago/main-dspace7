@@ -1,13 +1,5 @@
-*,
-*:before,
-*:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+* {
   box-sizing: border-box;
-}
-
-div {
-  display: block;
 }
 
 .page-breadcrumb {
@@ -27,16 +19,17 @@ div {
 }
 
 .content-container {
-  width: 960px;
-  padding: 0 15px;
+  width: 960px auto;
+  padding: 15px;
 }
 
 .page-banners {
+  width: 100%;
   padding-bottom: 30px;
 }
 
 .mid-3 {
-  width: 25%;
+  width: 25% auto;
   float: left;
 }
 
@@ -56,8 +49,12 @@ div {
   padding-right: 0.83333%;
 }
 
+.mid-6 img {
+  padding-top: 0.83333%;
+}
+
 .mid-9 {
-  width: 75%;
+  width: 75% auto;
   float: left;
 }
 
@@ -101,7 +98,7 @@ div {
 }
 
 .input-control {
-  width: 95%;
+  width: 90%;
   float: left;
   padding-left: 0.83333%;
   padding-right: 0.83333%;
@@ -111,23 +108,30 @@ div {
   padding: 8px;
   margin-bottom: 5px;
   border: 1px solid #d6dcd7;
+  height: 33px;
 }
 
 .button-search {
+  width: 40px;
   float: left;
   padding-left: 0.83333%;
-  padding-right: 0.83333%;
   background-position: center center;
   border-top: 1px solid #d6dcd7;
   border-bottom: 1px solid #d6dcd7;
   border-right: 1px solid #d6dcd7;
   border-left: 0;
+  align-content: center;
   display: block;
   margin: 0;
   background: #fff;
   text-align: right;
   border-radius: 0 5px 5px 0;
   height: 33px;
+}
+
+.button-search mat-icon {
+  color: #00520f;
+  float: left;
 }
 
 .list-input-custom {
@@ -181,7 +185,7 @@ a {
 
 .community-icons img {
   display: block;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .img-responsible {
@@ -190,4 +194,5 @@ a {
 
 img {
   border: 0;
+  width: 100%;
 }
