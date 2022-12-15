@@ -1,0 +1,259 @@
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.header-logo span {
+    font-size: 9pt;
+    text-transform: uppercase;
+
+  }
+
+.actions-bar .list-menu .item {
+    display: inline-block;
+    border-right: 1px solid #C4C6C5;
+    padding: 0 8px;
+  }
+
+.header-logo .page-name.default{
+  line-height: 50pt;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+.center-content {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 28px;
+  }
+
+
+.language-bar {
+    width: 50%;
+    float: right;
+    padding: 10px 7px;
+    font-size: 13px;
+    text-align: right;
+    align-items: center;
+  }
+
+.government-bar {
+    background: #edeff1;
+    font-size: 9pt;
+    border-bottom: 1px solid #195229;
+  }
+
+
+.government-bar a {
+    padding: 7px 5px;
+    color: #5d5d5d;
+    border-right: 1px solid #d6dcd7;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .government-bar .brazil-flag {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAATCAMAAAC5m+00AAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAACrUExURQCXSF27iQCWRQOWSQCWSRCdVACSSgCWRwCVSRKcVv/oAP/yAAIvh/bjBQKVTP/rAK3PF/3sARZBkg05ima2LCqiPg+ZRR9JoermBbGwLwEqkgCST1GwMRqdQZfIHdzgCSdSlTlYbEWrNyNKeouUPHOgtEJsn2WOrSClX2m/lF+6i3q8JsDVEBpCgWN2WefTD8i/IYSstzKmO3eIUaa2h3SOjfvlHjVfq6OmNShvDYIAAAFISURBVCjPbVHXksMgDNQBljC4l9iOndjp5VKv//+XnXByb7fDADO7rNAK9v4DngPv/h/24BHBuEhqB3pCeUxJIAWKtMZlIVCTciogH3yhWMpinM2t7ZctS5UgAR74kVICpMauNrfmaucTpMj5e+4VUNTOEvuzCoL8EvZLJCH1SIHAqKjtehowposwTmbIcqZIt+UpNV/3zWa3HYLp2sZ1gegoPXkNU5M238Ow3d132cIYEyel9MHDLo2NcX4519puPkPmbOIowrdTbGyTZXk2BEH1kZo4LPSjFgq2DFcVc3lWNZbt2rGWIIiwTOztzJZV9W77glCp8RsSNHdc1NfL6rxoxp5JCcmUC1cJjdx0GKZ1hxq0eqYBkuPlzLHrjXuiOAwaDUGQFJyWBpyU7EUaQI/xckGeA98jksqNQLmp8BnB4Xh8+ReHX640GNLt25uiAAAAAElFTkSuQmCC");
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+  }
+
+
+.link-list {
+    display: inline-block;
+    margin: 0 0 0 24px;
+  }
+
+.pd{
+  padding-left: 18px;
+  text-decoration: none;
+}
+
+
+.page-header.repositorio {
+    background: #ECEDF1;
+    padding-bottom: 30px;
+
+  }
+
+.page-header{
+  padding-top: 15px;
+}
+
+
+.content-container {
+    width: 960px;
+    padding: 0;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+
+  }
+
+.repositorio {
+    color: #195229;
+  }
+
+.repositorio a {
+    color: inherit;
+  }
+
+.repositorio .actions-bar {
+    background: linear-gradient(to bottom, #DBDCE1, #DBDCE1 80%, #C4C6C5);
+  }
+
+.actions-bar {
+    width: 100%;
+    float: left;
+    text-align: right;
+    padding: 4px 0;
+    font-size: 9pt;
+    margin-top: 15px;
+  }
+
+.list-menu {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+
+  input {
+    line-height: normal;
+  }
+
+.form-login label {
+    display: inline-block;
+    font-size: 9pt;
+    margin-right: 5px;
+  }
+
+.form-login input {
+    display: inline-block;
+    width: 75%;
+    margin: 0;
+    color: #454545;
+    padding: 0 3px;
+
+    font-size: 9pt;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+  }
+
+.form-login .btn-submit {
+
+      background: #f0f0f0;
+      color: inherit;
+      border: 0;
+      border-radius: 5px;
+      padding: 2px 10px;
+      font-size: 9pt;
+
+  }
+
+  .btn-submit {
+    font-size: 11pt;
+    background: #306810;
+    padding: 5px 15px;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+    text-align: right;
+    text-decoration: none;
+  }
+
+
+  button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+  }
+
+
+
+.form-control, .form-custom-search {
+    display: block;
+    font-size: 11pt;
+  }
+
+
+.header-logo .page-name.default {
+    line-height: 50pt;
+  }
+
+.header-logo .page-name {
+    font-size: 36pt;
+    line-height: 36pt;
+    margin: 0;
+  }
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+.mid-1 {
+    width: 8%;
+    float: left;
+    padding-left: 1%;
+    padding-right: 1%;
+    text-align-last: center;
+  }
+
+.mid-5 {
+  width: 41.66667%;
+    float: left;
+    padding-top: 2px;
+  }
+
+.mid-7 {
+    width: 50%;
+    float: left;
+
+  }
+
+.mid-8 {
+    width: 58.33333%;
+    float: right;
+  }
+
+
+.media-container {
+    float: right;
+    margin-top: -20px;
+  }
+
+.social {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  padding: 4px;
+
+  }
+
+/* .facebook {
+    background: url("../../../facebook.png") no-repeat;
+  }
+
+.twitter {
+    background: url("../../../twitter.png") no-repeat;
+  }
+
+.repositorio .youtube {
+  background: url("../../../youtube.png") no-repeat;
+  } */
+
+
