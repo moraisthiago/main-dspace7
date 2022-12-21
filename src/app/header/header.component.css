@@ -6,12 +6,13 @@ li{
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  text-decoration: none;
 }
 
 .header-logo span {
     font-size: 9pt;
     text-transform: uppercase;
-
+    text-decoration: none;
   }
 
 .actions-bar .list-menu .item {
@@ -23,6 +24,7 @@ h1 {
 .header-logo .page-name.default{
   line-height: 50pt;
   font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
   }
 
 .center-content {
@@ -43,15 +45,16 @@ h1 {
   }
 
 .government-bar {
-    background: #edeff1;
     font-size: 9pt;
     border-bottom: 1px solid #195229;
+    height: 28px;
+    color: #195229;
   }
 
 
 .government-bar a {
     padding: 7px 5px;
-    color: #5d5d5d;
+    color: #195229;
     border-right: 1px solid #d6dcd7;
     text-decoration: none;
     font-weight: bold;
@@ -87,9 +90,6 @@ h1 {
 
   }
 
-.page-header{
-  padding-top: 15px;
-}
 
 
 .content-container {
@@ -244,16 +244,17 @@ a:hover {
 
   }
 
-/* .facebook {
-    background: url("../../../facebook.png") no-repeat;
-  }
+.facebook{
+  background: url("../../assets/images/facebook.png") no-repeat;
+}
 
-.twitter {
-    background: url("../../../twitter.png") no-repeat;
-  }
+.youtube{
+  background: url("../../assets/images/youtube.png") no-repeat;
+}
 
-.repositorio .youtube {
-  background: url("../../../youtube.png") no-repeat;
-  } */
+.twitter{
+  background: url("../../assets/images/twitter.png") no-repeat;
+}
+
 
 
